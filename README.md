@@ -13,7 +13,7 @@
 
 ## Demo 
 
-[Play Demo](#)
+[Play Demo](https://azateser.github.io/write-typing-game/build/index.html)
 
 
 ## About <a name = "about"></a>
