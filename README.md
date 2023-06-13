@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Writé Typing Game
+![Banner](https://i.hizliresim.com/82yyluu.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Demo](#demo)
+- [About](#about)
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
+- [License](#license)
 
-In the project directory, you can run:
+## Demo 
 
-### `npm start`
+[Play Demo](#)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About <a name = "about"></a>
 
-### `npm test`
+I developed this game to improve my JavaScript skills and have some fun. The game is a fast typing game where you race against time and words fall from above.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to Play
 
-### `npm run build`
+- Set up the settings and choose your difficulty level at the beginning of the game.
+- Type the words falling from above before they reach the bottom.
+- When you correctly type a word, you will earn points and be able to move on to the next word.
+- However, since time is limited, you need to be fast. Try to type as many words as possible before time runs out.
+- You have 3 lives. The game ends when you exhaust all three lives. If you know all the words within a round, you earn the right to proceed to the next round.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
+- Fast and impressive user interface
+- Dynamically falling words
+- Earn points for each word typed correctly
+- Limited game duration with a timer
+- Display of the earned score and statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots <a name = "screenshots"></a>
 
-### `npm run eject`
+![Screenshot 1](https://i.hizliresim.com/28a42xa.png)
+![Screenshot 2](https://i.hizliresim.com/a6nrqy7.png)
+![Screenshot 3](https://i.hizliresim.com/pxrueoq.png)
+![Screenshot 4](https://i.hizliresim.com/39cugjr.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Roadmap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Make Design ([FIGMA](https://www.figma.com/file/PgjxqLIvmUCNzgScH2xfIp/WR%C4%B0TE?type=design&t=JU7qINF6WZz8g82G-1))
+- [x] Make Frontend (REACT)
+- [x] Falling words
+- [x] Check words and remove
+- [x] Color feedback
+- [x] Add score
+- [x] Add health
+- [x] Add lives
+- [ ] Add words
+- [ ] Add timer
+- [ ] Add animations
+- [ ] Add settings
+- [ ] Add levels
+- [ ] Add main menu
+- [ ] Add end game screen
+- [ ] Active restart button
+- [ ] ? Add sound effects
+- [ ] Add a database to store the scores
+- [ ] Add a leaderboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
