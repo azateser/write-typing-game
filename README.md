@@ -53,14 +53,13 @@ I developed this game to improve my JavaScript skills and have some fun. The gam
 - [x] Add score
 - [x] Add health
 - [x] Add lives
-- [ ] Add words
-- [ ] Add timer
+- [x] Add words
 - [ ] Add animations
-- [ ] Add settings
-- [ ] Add levels
-- [ ] Add main menu
-- [ ] Add end game screen
-- [ ] Active restart button
+- [x] Add settings
+- [x] Add levels
+- [x] Add main menu
+- [x] Add end game screen
+- [x] Active restart button
 - [ ] ? Add sound effects
 - [ ] Add a database to store the scores
 - [ ] Add a leaderboard

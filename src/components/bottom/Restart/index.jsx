@@ -1,8 +1,11 @@
 import * as S from "../styles";
 
-const index = () => {
+const index = ({setCurrentState, setLevel}) => {
   return (
-    <S.Restart>
+    <S.Restart onClick={() => {
+      setCurrentState('level');
+      setLevel("");
+    }}>
       <svg
         width="17"
         height="16"

@@ -4,7 +4,7 @@ import Restart from "./Restart";
 
 import * as S from "./styles";
 
-const Bottom = ({ currentWord, typingWord, setCurrentWord, health }) => {
+const Bottom = ({ currentWord, typingWord, setCurrentWord, health, matchedWord, setCurrentState, setLevel }) => {
   const setColor = (letter, index) => {
     console.log(typingWord);
     if (typingWord && typingWord[index]) {
@@ -25,7 +25,7 @@ const Bottom = ({ currentWord, typingWord, setCurrentWord, health }) => {
     <S.Bottom>
       <Heart health={health} />
       <Word setColor={setColor} currentWord={currentWord} />
-      <Restart />
+      <Restart setCurrentState={setCurrentState} setLevel={setLevel} />
     </S.Bottom>
   );
 };
